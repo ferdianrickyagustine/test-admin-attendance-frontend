@@ -4,6 +4,8 @@ Ini adalah frontend untuk sisi **admin** .
 
 Aplikasi ini digunakan oleh admin untuk mengelola data kehadiran dan user karyawan, seperti melihat riwayat absensi, menambah/mengedit user, serta melihat detail user.
 
+Aplikasi ini dibuat menggunakan **Vite** dan **Tailwind CSS** untuk membuat tampilannya.
+
 ---
 
 ## Fitur Utama
