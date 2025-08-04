@@ -52,7 +52,7 @@ export default function ManageUserPage() {
                                     style={{ minWidth: 0 }}
                                 >
                                     <img
-                                        src={user.photo ? `/uploads/${user.photo}` : "https://ui-avatars.com/api/?name=" + encodeURIComponent(user.name || "User") + "&background=888&color=fff&size=64"}
+                                        src={user.photo ? `http://localhost:3001/${user.photo}` : "https://ui-avatars.com/api/?name=User&background=random"}
                                         alt={user.name || "User"}
                                         className="w-10 h-10 rounded-full object-cover border flex-shrink-0"
                                     />
